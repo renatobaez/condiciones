@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Renato Báez Lobos">
+  <meta name="description" content="Desafío 2 Javascript - Condiciones">
+  <meta name="keywords" content="Renato, Condicions, IF, Else, Operadores, Lógicos ,Desafiío, Latam, Curso, Full Stack JavaScript">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Condiciones</title>
+</head>
+<body>
+  <main>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Parte 1</a>
+        </li>
+        <li>
+          <a href="./stickers.html">Parte 2</a>
+        </li>
+        <li>
+          <a href="./password.html">Parte 3</a>
+        </li>
+      </ul>
+    </nav>
+   
+  <!-- exercise 2-->
+    <section>
+      <p>Puedes llevar hasta 10 stickers en total</p>
+      <div class="container">
+        <figure>
+          <img src="./assets/img/octodex.jpg" alt="sticker octodex">
+          <input id="octodex" type="number">
+        </figure>
+        <figure>
+          <img src="./assets/img/slack.jpg" alt="sticker slack">
+          <input id="slack" type="number">
+        </figure>
+        <figure>
+          <img src="./assets/img/git.jpg" alt="sticker git">
+          <input id="git" type="number">
+        </figure>
+      </div>
+      <p id="messageStickers"></p>
+      <div class="footer-section">
+        <button onClick="verifyStickers()">Verificar</button>
+      </div>
+    </section>
+ 
+  </main>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

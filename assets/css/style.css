@@ -1,0 +1,82 @@
+
+*, 
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+body{
+  font-size: 16px;
+  font-family: 'Belanosima', sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav {
+	background: #01579b;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+	list-style-type: none;
+}
+nav ul li{
+  padding: 15px;
+}
+nav ul li:hover{
+  background: #3e98dc;
+}
+a, a:hover, a::after, a::before {
+  color: white;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+#samurai{
+  cursor: pointer;
+}
+section{
+  flex-direction: column;
+  margin-top: 30px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.footer-section{
+  display: flex;
+  justify-content: center;
+} 
+button {
+  width: 5em;
+  border-radius: 5px;
+}
+select {
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid silver;
+  text-indent: 5px;
+  width: 100px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+.boldFont{
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
